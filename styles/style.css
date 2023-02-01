@@ -1,7 +1,52 @@
+/* Universal Style*/
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: Arial, Helvetica, sans-serif;
 
-    /* Toggle for Visual Aide */
+	/* Toggle for visual aide */
+	border: 1px solid red;
+	width: 100%;
+}
+
+/* Theme from Randoma11y.com */
+.alt-theme {
+	color: #30ae12;
+	background-color: #21204a;
+}
+
+/* Header */
+header {
+	width: 97%;
+	margin: 11px;
+}
+
+h1 {
+	width: 100%;
+	text-align: center;
+	padding: 11px;
+	margin: 0 auto;
+}
+
+/* Main */
+.grid {
+	padding: 11px;
+	width: 100%;
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	grid-template-rows: repeat(4, 1fr);
+	grid-gap: 22px;
+}
+
+.picture-grid {
+	display: grid;
+	height: 100%;
+	grid-template-rows: 11% 78% 11%;
+}
+
+img {
+	width: 100%;
+	object-fit: cover;
+	box-shadow: 3px 3px 18px rgba(0, 0, 0, 0.77);
 }
