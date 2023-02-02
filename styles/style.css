@@ -156,5 +156,25 @@ img {
 
 /* Footer */
 footer {
-	margin: 11px;
+	width: 97%;
+	background-color: black;
+	color: orangered;
+	font-size: 19px;
+	font-weight: 700;
+	display: flex;
+	justify-content: right;
+	align-items: center;
+	gap: 7px;
+	padding: 11px;
+	margin: 7px auto;
+}
+
+.github {
+	display: flex;
+	gap: 7px;
+	height: 33px;
+}
+
+footer img{
+	box-shadow: none;
 }
