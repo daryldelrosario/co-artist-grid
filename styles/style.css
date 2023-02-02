@@ -83,6 +83,10 @@ img {
     margin: 0 auto;
 }
 
+.hover {
+	display: hidden;
+}
+
 /* Footer */
 footer {
 	margin: 11px;
