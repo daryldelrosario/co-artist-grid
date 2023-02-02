@@ -39,7 +39,7 @@ h2 {
 }
 
 h3 {
-    font-size: 1.1em;
+    font-size: 0.7em;
     font-weight: 300;
     margin-top: 5px;
 	background-color: rgba(0, 0, 0, 0.769);
@@ -75,20 +75,42 @@ h2, h3 {
 	grid-template-rows: 1fr 250px 2fr;
 }
 
+.container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+	height: 100%;
+	width: 100%;
+	border: 2px purple solid;
+}
+
+.overlay {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: absolute;
+	bottom: 0;
+	width: 88%;
+	height: 100%;
+	background-color: rgba(0 0 0 / 0.77);
+	color: white;
+	opacity: 0;
+	transition: .5s ease;
+	text-align: center;
+	font-size: 0.9em;
+}
+
+.container:hover .overlay {
+	opacity: 1;
+}
+
 img {
 	height: 100%;
     width: 88%;
 	object-fit: cover;
 	box-shadow: 3px 3px 18px yellowgreen;
     margin: 0 auto;
-}
-
-.hover {
-	display: none;
-}
-
-.picture-grid:hover .hover {
-	display: block;
 }
 
 /* Footer */
