@@ -28,19 +28,25 @@ h1 {
 	margin: 0 auto;
 }
 
-/* Main */
+/* Main Section - Grid */
 h2 {
     background-color: black;
     color: white;
     font-size: 1.3em;
     font-weight: 900;
     margin-bottom: 7px;
+	font-family: "Roboto", sans-serif;
 }
 
 h3 {
     font-size: 1.1em;
     font-weight: 300;
     margin-top: 5px;
+	background-color: rgba(0, 0, 0, 0.769);
+	color: rgb(255, 69, 0);
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 
 h2, h3 {
@@ -48,18 +54,25 @@ h2, h3 {
 }
 
 .grid {
-	padding: 11px;
-	width: 100%;
+	background-image: url("https://images.unsplash.com/photo-1541701494587-cb58502866ab?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	padding: 13px;
+	width: 88%;
 	display: grid;
 	grid-template-columns: repeat(4, minmax(auto, 1fr));
-	grid-template-rows: repeat(4, 444px);
+	grid-template-rows: repeat(4, 333px);
 	grid-gap: 22px;
+	margin: 0 auto;
+	border-radius: 3px;
+	box-shadow: 0 0 22px #444545;
 }
 
 .picture-grid {
 	display: grid;
 	height: 100%;
-	grid-template-rows: 1fr 80% 2fr;
+	grid-template-rows: 1fr 250px 2fr;
 }
 
 img {
@@ -68,4 +81,9 @@ img {
 	object-fit: cover;
 	box-shadow: 3px 3px 18px rgba(0, 0, 0, 0.77);
     margin: 0 auto;
+}
+
+/* Footer */
+footer {
+	margin: 11px;
 }
