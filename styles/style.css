@@ -19,6 +19,10 @@ body {
 	align-items: center;
 }
 
+.red {
+	color: red;
+}
+
 /* Theme from Randoma11y.com */
 .alt-theme {
 	color: #30ae12;
