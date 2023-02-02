@@ -68,6 +68,11 @@ article {
 	align-items: center;
 	background-color: black;
 	color: white;
+	padding: 11px;
+}
+
+article p {
+	text-align: justify;
 }
 
 /* Main Section - Grid */
@@ -83,12 +88,14 @@ h2 {
 h3 {
     font-size: 0.7em;
     font-weight: 300;
-    margin-top: 5px;
+    margin: 7px auto;
 	background-color: rgba(0, 0, 0, 0.769);
 	color: rgb(255, 69, 0);
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	width: 88%;
+	z-index: 11;
 }
 
 h2, h3 {
@@ -105,7 +112,7 @@ h2, h3 {
 	display: grid;
 	grid-template-columns: repeat(4, minmax(auto, 1fr));
 	grid-template-rows: repeat(4, 333px);
-	grid-gap: 22px;
+	grid-gap: 44px 22px;
 	margin: 0 auto;
 	border-radius: 3px;
 	box-shadow: 0 0 22px #444545;
@@ -166,7 +173,7 @@ footer {
 	align-items: center;
 	gap: 7px;
 	padding: 11px;
-	margin: 7px auto;
+	margin: 22px auto 0;
 }
 
 .github {
