@@ -3,7 +3,7 @@
 
 ## <a href="https://daryldelrosario.github.io/co-artist-grid">Live Demo</a>   
 <kbd>
-    <video autoplay loop>
+    <video width="100%" controls>
         <source src="co-grid-artist-ldrx.mp4" type="video/mp4">
         Your browser does not support the video tag.
     <video>
