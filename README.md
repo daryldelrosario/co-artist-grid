@@ -6,7 +6,7 @@
     <video width="100%" controls>
         <source src="co-grid-artist-ldrx.mp4" type="video/mp4">
         Your browser does not support the video tag.
-    <video>
+    </video>
 </kbd>
 
 ## Features
