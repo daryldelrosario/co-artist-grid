@@ -2,7 +2,12 @@
 4x4 Gridbox of Artists for CO. Designed using CSS Grid.
 
 ## <a href="https://daryldelrosario.github.io/co-artist-grid">Live Demo</a>   
-<kbd><img src="co-grid-artist-ldrx.mp4" alt="live demo video">
+<kbd>
+    <video autoplay loop>
+        <source src="co-grid-artist-ldrx.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    <video>
+</kbd>
 
 ## Features
 
